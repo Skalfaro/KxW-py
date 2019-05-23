@@ -1,8 +1,10 @@
-def raise_to_power(base, power):
-    result = 1
-    for index in range(power):
-        result = result * base
-    return result
+telefono = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
 
-
-print(raise_to_power(3, 2))
+for row in telefono:
+    for col in row:
+        print(col)
