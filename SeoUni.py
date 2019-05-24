@@ -4,7 +4,8 @@ keyword = input("search here: ")
 
 
 for uni in lista_uni.readlines():
-    if keyword in uni:
+    if keyword.lower() in uni.lower():
         print(uni)
+
 
 lista_uni.close()
