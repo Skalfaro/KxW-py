@@ -1,5 +1,7 @@
-try:
-    number = int(input("enter a number: "))
-    print(number)
-except:
-    print("non valido")
+
+lista_uni = open("C:/Users/scalfarino/Desktop/listaUni.txt", "r")
+
+for uni in lista_uni.readlines():
+    print(uni)
+
+lista_uni.close()
