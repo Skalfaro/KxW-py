@@ -1,11 +1,14 @@
 
-lista_uni = open("C:/Users/scalfarino/Desktop/listaUni.txt", "r")
 keyword = input("search here: ")
 
-
-for uni in lista_uni.readlines():
-    if keyword.lower() in uni.lower():
-        print(uni)
+with open("listaUni.txt") as lista_uni:
+    if keyword.lower() in lista_uni.read().lower():
+        lista_uni.seek(0)
+        for uni in lista_uni.readlines():
+            if keyword.lower() in uni.lower():
+                print(uni)
+    else:
+       print("there is not")
 
 
 lista_uni.close()
