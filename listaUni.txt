@@ -1,0 +1,183 @@
+1	Università degli Studi di Roma "La Sapienza"	Roma	Lazio	112.142
+
+2	Università di Bologna	Bologna	Emilia Romagna	79.138
+
+3	Università degli Studi di Napoli Federico II	Napoli	Campania	78.324
+
+4	Università degli Studi di Torino	Torino	Piemonte	74.500
+
+5	Università degli Studi di Milano	Milano	Lombardia	61.603
+
+6	Università degli Studi di Padova	Padova	Veneto	57.646
+
+7	Università degli Studi di Firenze	Firenze	Toscana	50.338
+
+8	Università di Pisa	Pisa	Toscana	47.779
+
+9	Università degli Studi di Bari Aldo Moro	Bari	Puglia	45.962
+
+10	Università degli Studi di Catania	Catania	Sicilia	44.351
+
+11	Politecnico di Milano	Milano	Lombardia	42.938
+
+12	Università degli Studi di Palermo	Palermo	Sicilia	40.305
+
+13	Università Cattolica del Sacro Cuore	Milano	Lombardia	38.160
+
+14	Università degli Studi di Salerno	Salerno	Campania	34.901
+
+15	Università degli Studi di Milano-Bicocca	Milano	Lombardia	32.852
+
+16	Università degli Studi Roma Tre	Roma	Lazio	32.660
+
+17	Politecnico di Torino	Torino	Piemonte	32.137
+
+18	Università degli Studi di Genova	Genova	Liguria	31.683
+
+19	Università degli Studi di Roma Tor Vergata	Roma	Lazio	30.100
+
+20	Università della Calabria	Rende (CS)	Calabria	26.782
+
+21	Università degli Studi di Cagliari	Cagliari	Sardegna	25.786
+
+22	Università degli Studi della Campania Luigi Vanvitelli	Caserta	Campania	25.539
+
+23	Università degli Studi "Gabriele d'Annunzio"	Chieti - Pescara	Abruzzo	25.265
+
+24	Università degli Studi di Parma	Parma	Emilia Romagna	24.349
+
+25	Università degli Studi di Verona	Verona	Veneto	23.657
+
+26	Università degli Studi di Perugia	Perugia	Umbria	23.211
+
+27	Università degli Studi di Messina	Messina	Sicilia	22.634
+
+28	Università degli Studi di Modena e Reggio Emilia	Modena - Reggio Emilia	Emilia Romagna	22.610
+
+29	Università telematica "Pegaso"	Napoli	Campania	22.039
+
+30	Università degli Studi di Pavia	Pavia	Lombardia	21.884
+
+31	Università degli Studi "Niccolà Cusano"	Roma	Lazio	21.329
+
+32	Università Ca' Foscari Venezia	Venezia	Veneto	20.174
+
+33	Università degli Studi di Bergamo	Bergamo	Lombardia	17.348
+
+34	Università degli Studi dell'Aquila	L'Aquila	Abruzzo	17.076
+
+35	Università del Salento	Lecce	Puglia	16.817
+
+36	Università degli Studi di Trento	Trento	Trentino-Alto Adige	16.445
+
+37	Università degli Studi di Ferrara	Ferrara	Emilia Romagna	15.795
+
+38	Università degli Studi di Siena	Siena	Toscana	15.750
+
+39	Università Politecnica delle Marche	Ancona	Marche	15.517
+
+40	Università degli Studi di Udine	Udine	Friuli Venezia Giulia	15.368
+
+41	Università degli Studi di Trieste	Trieste	Friuli Venezia Giulia	14.824
+
+42	Università degli Studi di Urbino "Carlo Bo"	Urbino	Marche	14.254
+
+43	Università degli Studi di Brescia	Brescia	Lombardia	14.183
+
+44	Università commerciale Luigi Bocconi	Milano	Lombardia	13.214
+
+45	Università degli Studi di Napoli "Parthenope"	Napoli	Campania	13.067
+
+46	Università degli Studi di Sassari	Sassari	Sardegna	12.642
+
+47	Università degli Studi del Piemonte Orientale Amedeo Avogadro	Alessandria - Novara - Vercelli	Piemonte	12.440
+
+48	Università degli Studi di Napoli "L'Orientale"	Napoli	Campania	10.863
+
+49	Università telematica internazionale "UniNettuno"	Roma	Lazio	10.776
+
+50	Università degli Studi Magna Gràcia di Catanzaro	Catanzaro	Calabria	10.393
+
+51	Università degli Studi di Macerata	Macerata	Marche	10.255
+
+52	Università degli Studi di Foggia	Foggia	Puglia	9.840
+
+53	Università telematica "Guglielmo Marconi"	Roma	Lazio	9.828
+
+54	Università degli Studi dell'Insubria	Como - Varese	Lombardia	9.682
+
+55	Politecnico di Bari	Bari	Puglia	9.672
+
+56	Università telematica e-Campus	Novedrate	Lombardia	9.133
+
+57	Libera Università Internazionale degli Studi Sociali "Guido Carli"	Roma	Lazio	8.750
+
+58	Università degli Studi "Suor Orsola Benincasa"	Napoli	Campania	8.239
+
+59	Università degli Studi della Tuscia	Viterbo	Lazio	8.116
+
+60	Università degli Studi di Cassino e del Lazio Meridionale	Cassino (FR)	Lazio	7.661
+
+61	Università degli Studi del Molise	Campobasso	Molise	7.048
+
+62	Università degli Studi di Camerino	Camerino (MC)	Marche	6.745
+
+63	Università degli Studi della Basilicata	Potenza - Matera	Basilicata	6.593
+
+64	Università degli Studi di Teramo	Teramo	Abruzzo	5.997
+
+65	Università degli Studi "Mediterranea" di Reggio Calabria	Reggio Calabria	Calabria	5.830
+
+66	Libera Università Maria Santissima Assunta	Roma	Lazio	5.680
+
+67	Università Kore di Enna	Enna	Sicilia	5.613
+
+68	Università degli Studi del Sannio	Benevento	Campania	5.305
+
+69	Libera università di lingue e comunicazione IULM	Milano	Lombardia	5.229
+
+70	Università Iuav di Venezia	Venezia	Veneto	4.058
+
+71	Libera Università di Bolzano	Bolzano	Trentino-Alto Adige	3.360
+
+72	Università telematica San Raffaele	Roma	Lazio	3.097
+
+73	Università Vita-Salute San Raffaele	Milano	Lombardia	2.605
+
+74	Università telematica UNITELMA Sapienza	Roma	Lazio	2.282
+
+75	Università degli Studi di Roma Foro Italico	Roma	Lazio	2.225
+
+76	Università Carlo Cattaneo	Castellanza (VA)	Lombardia	2.053
+
+77	Università per stranieri di Siena	Siena	Toscana	1.932
+
+78	Link Campus University	Roma	Lazio	1.838
+
+79	Università Campus Bio-Medico	Roma	Lazio	1.754
+
+80	Università degli Studi Internazionali di Roma	Roma	Lazio	1.399
+
+81	Libera Università Mediterranea	Casamassima (BA)	Puglia	1.379
+
+82	Università della Valle d'Aosta	Aosta	Valle d'Aosta	1.082
+
+83	Università per stranieri "Dante Alighieri" di Reggio Calabria	Reggio Calabria	Calabria	961
+
+84	Università per stranieri di Perugia	Perugia	Umbria	899
+
+85	Università Europea di Roma	Roma	Lazio	820
+
+86	Università telematica Giustino Fortunato	Benevento	Campania	797
+
+87	Humanitas University	Pieve Emanuele (MI)	Lombardia	576
+
+88	Università telematica Universitas Mercatorum	Roma	Lazio	335
+
+89	Università degli Studi di scienze gastronomiche	Bra (CN)	Piemonte	298
+
+90	Università telematica "Leonardo da Vinci"	Torrevecchia Teatina	Abruzzo	153
+
+91	Università telematica "Italian University Line"	Firenze	Toscana	96
+
+
