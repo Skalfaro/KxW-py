@@ -9,6 +9,3 @@ class university:
         self.is_public = is_public
 
 
-uni1 = university("Università di Pavia", 'Lombardia', 'Pavia', ('medicina', 'ingegneria', 'giurisprudenza'), 22000, 1, True)
-
-print(uni1.city)
