@@ -1,6 +1,6 @@
 
-keyword = input("search here: ")
-#keyword = location + " "
+location = input("search here: ")
+keyword = ("  + location +  ")
 
 with open("listaUni.txt") as lista_uni:
     if keyword.lower() in lista_uni.read().lower():
