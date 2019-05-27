@@ -12,12 +12,6 @@ class person:
         self.job = job
         self.location = location
 
-object_name_contenitor = []
-i = 0
-for line in p:
-    obj = "object" + i.__str__()
-    object_name_contenitor.append(obj)
-    i = i + 1
 
 people = []
 n = 0
@@ -26,12 +20,6 @@ for line in p:
     people.append(content)
     n = n + 1
 
-dictionary_obj = {
-    object_name_contenitor[0]: people[0],
-    object_name_contenitor[1]: people[1],
-    object_name_contenitor[2]: people[2]
 
-}
-
-
-print(people[0].name)
+keyword = input("search: ")
+print(people[2].name)
