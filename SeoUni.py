@@ -3,7 +3,7 @@ uni_list = []
 with open('listaUni.txt', 'r') as lista_uni:
     for line in lista_uni:
         values = line.split(',')
-        uni_list.append((values[0], values[1], values[2]))
+        uni_list.append((values[0], values[1], values[2], values[3]))
 
 
 class University:
@@ -23,17 +23,17 @@ for line in uni_list:
     n = n + 1
 
 
-location = input("search here: ")
+#location = input("search here: ")
 
 
-with open("listaUni.txt") as lista_uni:
-    if keyword.lower() in lista_uni.read().lower():
-        lista_uni.seek(0)
-        for uni in lista_uni.readlines():
-            if keyword.lower() in uni.lower():
-                print(uni)
-    else:
-       print("there is not")
+#with open("listaUni.txt") as lista_uni:
+    #if keyword.lower() in lista_uni.read().lower():
+       # lista_uni.seek(0)
+      #  for uni in lista_uni.readlines():
+          # if keyword.lower() in uni.lower():
+            #    print(uni)
+  # else:
+   #    print("there is not")
 
 
-lista_uni.close()
+print(lista_uni)

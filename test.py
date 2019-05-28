@@ -22,4 +22,15 @@ for line in p:
 
 
 keyword = input("search: ")
-print(people[2].name)
+
+i = 0
+if keyword.lower() in people:
+    people.seek(0)
+    for line in people.readlines():
+        if keyword.lower() in people:
+            print(line)
+else:
+    print("there is not")
+
+
+print(p)
