@@ -1,13 +1,9 @@
-keyword = input("search: ")
+p = []
 
-i = 0
-if keyword.lower() in people:
-    people.seek(0)
-    for line in people.readlines():
-        if keyword.lower() in people:
-            print(line)
-else:
-    print("there is not")
+with open('C:/Users/scalfarino/Desktop/ListaUni.txt', 'r') as f:
+    for line in f:
+        values = line.split('-')
+        p.append((values[0], values[1], values[2], values[3]))
 
 
 class University:
@@ -18,15 +14,19 @@ class University:
         self.number_of_students = number_of_students
 
 
-obj_list = []
+objects_uni = []
 n = 0
-
-for line in uni_list:
-    obj_uni = University(uni_list[n][0], uni_list[n][1], uni_list[n][2], uni_list[n][3])
-    obj_list.append(obj_uni)
+for line in p:
+    obj = University(p[n][0], p[n][1], p[n][2], p[n][3])
+    objects_uni.append(obj)
     n = n + 1
 
+i = 0
+keyword = input("insert city here: ")
+for line in p:
+    if keyword.lower() in objects_uni[i].city.lower():
+        print(p[i])
+        i = i + 1
+    else:
+        i = i + 1
 
-
-
-print(lista_uni)
