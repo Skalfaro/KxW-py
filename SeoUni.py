@@ -1,9 +1,13 @@
-uni_list = []
+keyword = input("search: ")
 
-with open('listaUni.txt', 'r') as lista_uni:
-    for line in lista_uni:
-        values = line.split(',')
-        uni_list.append((values[0], values[1], values[2], values[3]))
+i = 0
+if keyword.lower() in people:
+    people.seek(0)
+    for line in people.readlines():
+        if keyword.lower() in people:
+            print(line)
+else:
+    print("there is not")
 
 
 class University:
@@ -23,17 +27,6 @@ for line in uni_list:
     n = n + 1
 
 
-#location = input("search here: ")
-
-
-#with open("listaUni.txt") as lista_uni:
-    #if keyword.lower() in lista_uni.read().lower():
-       # lista_uni.seek(0)
-      #  for uni in lista_uni.readlines():
-          # if keyword.lower() in uni.lower():
-            #    print(uni)
-  # else:
-   #    print("there is not")
 
 
 print(lista_uni)
