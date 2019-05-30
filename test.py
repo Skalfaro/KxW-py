@@ -21,16 +21,12 @@ for line in p:
     n = n + 1
 
 
-keyword = input("search: ")
+
 
 i = 0
-if keyword.lower() in people:
-    people.seek(0)
-    for line in people.readlines():
-        if keyword.lower() in people:
-            print(line)
-else:
-    print("there is not")
-
-
-print(p)
+for line in p:
+    if people[i].name == "erika":
+        print(p[i])
+        i = i + 1
+    else:
+        i = i + 1
