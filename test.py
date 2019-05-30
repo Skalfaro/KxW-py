@@ -20,13 +20,13 @@ for line in p:
     people.append(content)
     n = n + 1
 
-print(people[0].job)
+
 
 
 i = 0
 for line in p:
     if people[i].name == "erika":
-        print(people[i].job)
+        print(p[i])
         i = i + 1
     else:
         i = i + 1
