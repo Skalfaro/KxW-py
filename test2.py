@@ -21,8 +21,9 @@ for line in p:
     n = n + 1
 
 i = 0
+keyword = input("insert city here: ")
 for line in p:
-    if objects_uni[i].city == "Roma":
+    if objects_uni[i].city == keyword:
         print(p[i])
         i = i + 1
     else:
