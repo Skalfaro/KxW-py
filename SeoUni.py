@@ -22,11 +22,21 @@ for line in p:
     n = n + 1
 
 i = 0
-keyword = input("insert city here: ")
+key_region = input("insert region here: ")
+key_city = input("insert city here: ")
+
 for line in p:
-    if keyword.lower() in objects_uni[i].city.lower():
+    if key_city.lower() == objects_uni[i].city.lower() and key_region.lower() == objects_uni[i].region.lower():
         print(p[i])
         i = i + 1
+    elif key_region.lower() == objects_uni[i].region.lower() and key_city.lower() != objects_uni[i].city.lower():
+        for k in range(i + 1):
+            if objects_uni[i].city == objects_uni[k].city and i != k:
+                i = i + 1
+                break
+            elif objects_uni[i].city == objects_uni[k].city and i == k:
+                print(objects_uni[i].city)
+                i = i + 1
     else:
         i = i + 1
 
