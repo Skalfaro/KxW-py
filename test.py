@@ -1,41 +1,55 @@
 p = []
 
-with open('C:/Users/scalfarino/Desktop/exlist.txt', 'r') as f:
+with open('C:/Users/scalfarino/Desktop/ListaUni.txt', 'r') as f:
     for line in f:
-        values = line.split(' ')
-        p.append((values[0], values[1], values[2]))
+        values = line.split('-')
+        p.append((values[0], values[1], values[2], values[3]))
 
 
-class person:
-    def __init__(self, name, job, location):
+class University:
+    def __init__(self, name, city, region, number_of_students):
         self.name = name
-        self.job = job
-        self.location = location
+        self.city = city
+        self.region = region
+        self.number_of_students = number_of_students
 
 
-people = []
+objects_uni = []
 n = 0
 for line in p:
-    content = person(p[n][0], p[n][1], p[n][2])
-    people.append(content)
+    obj = University(p[n][0], p[n][1], p[n][2], p[n][3])
+    objects_uni.append(obj)
     n = n + 1
 
-keyword = input("search: ")
-
 i = 0
-if keyword.lower() in people:
-    people.seek(0)
-    for line in people.readlines():
-        if keyword.lower() in people:
-            print(line)
-else:
-    print("there is not")
+key_region = input("insert region here: ").lower()
+key_city = input("insert city here: ").lower()
+other_cities = []
 
-
-i = 0
 for line in p:
-    if people[i].name == "erika":
-        print(p[i])
-        i = i + 1
+    if key_city == objects_uni[i].city.lower() and key_region == objects_uni[i].region.lower():
+        if i < (len(p) - 1):
+            print(p[i])
+            i += 1
+        else:
+            print(p[i])
+            print(other_cities)
+    elif key_region == objects_uni[i].region.lower() and key_city != objects_uni[i].city.lower():
+        if i < (len(p) - 1):
+            if objects_uni[i].city in other_cities:
+                i += 1
+            else:
+                other_cities.append(objects_uni[i].city)
+                i += 1
+        else:
+            if objects_uni[i].city in other_cities:
+                i += 1
+            else:
+                other_cities.append(objects_uni[i].city)
+                i += 1
+                print(other_cities)
     else:
-        i = i + 1
+        if i < (len(p) - 1):
+            i += 1
+        else:
+            print(other_cities)

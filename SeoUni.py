@@ -36,21 +36,18 @@ for line in p:
             print(other_cities)
     elif key_region == objects_uni[i].region.lower() and key_city != objects_uni[i].city.lower():
         if i < (len(p) - 1):
-            for k in range(i + 1):
-                if objects_uni[i].city == objects_uni[k].city and i != k:
-                    i += 1
-                    break
-                elif objects_uni[i].city == objects_uni[k].city and i == k:
-                    other_cities.append(objects_uni[i].city)
-                    i += 1
+            if objects_uni[i].city in other_cities:
+                i += 1
+            else:
+                other_cities.append(objects_uni[i].city)
+                i += 1
         else:
-            for k in range(i + 1):
-                if objects_uni[i].city == objects_uni[k].city and i != k:
-                    i += 1
-                    break
-                elif objects_uni[i].city == objects_uni[k].city and i == k:
-                    other_cities.append(objects_uni[i].city)
-                    print(other_cities)
+            if objects_uni[i].city in other_cities:
+                i += 1
+            else:
+                other_cities.append(objects_uni[i].city)
+                i += 1
+                print(other_cities)
     else:
         if i < (len(p) - 1):
             i += 1
