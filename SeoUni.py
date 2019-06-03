@@ -25,9 +25,12 @@ i = 0
 key_region = input("insert region here: ").lower()
 key_city = input("insert city here: ").lower()
 other_cities = []
+key_valid = False
+
 
 for line in p:
     if key_city == objects_uni[i].city.lower() and key_region == objects_uni[i].region.lower():
+        key_valid = True
         if i < (len(p) - 1):
             print(p[i])
             i += 1
@@ -35,6 +38,7 @@ for line in p:
             print(p[i])
             print(other_cities)
     elif key_region == objects_uni[i].region.lower() and key_city != objects_uni[i].city.lower():
+        key_valid = True
         if i < (len(p) - 1):
             if objects_uni[i].city in other_cities:
                 i += 1
@@ -44,6 +48,7 @@ for line in p:
         else:
             if objects_uni[i].city in other_cities:
                 i += 1
+                print(other_cities)
             else:
                 other_cities.append(objects_uni[i].city)
                 i += 1
@@ -52,4 +57,7 @@ for line in p:
         if i < (len(p) - 1):
             i += 1
         else:
-            print(other_cities)
+            if not key_valid:
+                print("invalid region")
+            else:
+                print(other_cities)
