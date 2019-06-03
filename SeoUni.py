@@ -22,19 +22,19 @@ for line in p:
     n = n + 1
 
 i = 0
-key_region = input("insert region here: ")
-key_city = input("insert city here: ")
+key_region = input("insert region here: ").lower()
+key_city = input("insert city here: ").lower()
 other_cities = []
 
 for line in p:
-    if key_city.lower() == objects_uni[i].city.lower() and key_region.lower() == objects_uni[i].region.lower():
+    if key_city == objects_uni[i].city.lower() and key_region == objects_uni[i].region.lower():
         if i < (len(p) - 1):
             print(p[i])
             i += 1
         else:
             print(p[i])
             print(other_cities)
-    elif key_region.lower() == objects_uni[i].region.lower() and key_city.lower() != objects_uni[i].city.lower():
+    elif key_region == objects_uni[i].region.lower() and key_city != objects_uni[i].city.lower():
         if i < (len(p) - 1):
             for k in range(i + 1):
                 if objects_uni[i].city == objects_uni[k].city and i != k:
